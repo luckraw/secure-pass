@@ -1,4 +1,6 @@
 package com.luckraw.secure_pass.controller;
 
-public class BodyRequest {
+public record BodyRequest(String password) {
+
+
 }
